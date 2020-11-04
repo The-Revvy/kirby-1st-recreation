@@ -20,7 +20,7 @@ All songs are loaded from the e-Reader itself.
 
 This one is 0x0054.
 
-; CONSTANTS
+    ; CONSTANTS
 
     input_register = 0x9f02
     system_sound_83 = 0x0054
