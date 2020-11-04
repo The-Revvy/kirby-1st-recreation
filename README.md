@@ -9,7 +9,7 @@ CRC: D5984FD9
 
 However, the purpose of this project is to fully recreate the experience.
 
-[ ](screenshot.png)
+![ ](screenshot.png)
 
 The image displayed on the screen when this card is loaded onto the e-Reader is the official image of the 1st Prize Kirby card, and was obtained through editor of Tips 'N Tricks Magazine earlier this year.
 He was sent the image for a piece on 'The rarest e-Reader Card', featuring the Kirby Prize cards, and the screens displayed for the places: 1st, 2nd and Loser.
