@@ -4,7 +4,7 @@
 ; CONSTANTS
 
     input_register = 0x9f02
-    system_sound_83 = 0x0054
+    system_sound = 0x00fb
 
 ; PROGRAM
 
@@ -226,7 +226,7 @@ load_graphics:
     rst 0
     .db 0x32                      ; SetSpritePos
 
-    ld hl,#system_sound_83        ; hl=system sound number
+    ld hl,#system_sound        ; hl=system sound number
     rst 8
     .db 0x05                      ; PlaySystemSound
 

@@ -1,3 +1,4 @@
+
 This is a fork of d1x's "Promotional Kirby Contest Card (Loser) Disassembly", found here:
 https://github.com/d1x/ereader-card-disassemblies/tree/master/kirby-contest-card-loser
 
@@ -5,29 +6,27 @@ https://github.com/d1x/ereader-card-disassemblies/tree/master/kirby-contest-card
 It is a recreation of the 1st Prize Kirby Contest e-Reader Card from e3 2002.
 It is important to note that the hash for the recreation is not going to match that of the official card, as the compression is not going to be exactly the same.
 
-CRC: D5984FD9
+CRC: 9FB68A8E
 
 However, the purpose of this project is to fully recreate the experience.
 
 ![ ](screenshot.png)
 
-The image displayed on the screen when this card is loaded onto the e-Reader is the official image of the 1st Prize Kirby card, and was obtained through editor of Tips 'N Tricks Magazine earlier this year.
-He was sent the image for a piece on 'The rarest e-Reader Card', featuring the Kirby Prize cards, and the screens displayed for the places: 1st, 2nd and Loser.
-To this day this image is the closest known thing to this card existing anywhere.
+The image displayed on the screen when this card is loaded onto the e-Reader is the official image of the 1st Prize Kirby card, and was obtained through a screenshot shared by Nintendo.
 
-The song included in this repo has been guessed, and picked out to try and match what a 'winning' sound would sound like when compared to the other 2 prize cards.
+Previously, the song included in this repo had been guessed, and picked out to try and match what a 'winning' sound would sound like when compared to the other 2 prize cards.
+However, a first place card has surfaced, and you can [see a video of it in action here](https://www.youtube.com/watch?v=k32f2YrOsJs).
 All songs are loaded from the e-Reader itself.
 
-This one is 0x0054.
+This one is `0x00fb`.
 
     ; CONSTANTS
 
     input_register = 0x9f02
-    system_sound_83 = 0x0054
+    system_sound = 0x00fb
 
-Change the value of system_sound_83 to change the music
+Change the value of `system_sound` to change the music
 
-The repo will be updated should information on the song that was officially used is found.
 
 ## How to build
 
